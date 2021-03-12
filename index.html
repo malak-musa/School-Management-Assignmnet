@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Reggae+One&display=swap" rel="stylesheet">
+    <title>School Management System</title>
+</head>
+<body>
+    <h1 class='card-title text-center'>School Management System</h1>
+    <ul id='students'></ul>
+    <div class='global-container'>
+        <div class='card login-form'>
+            <div class='card-body'>
+                <div class='card-text'>
+                    <form>
+                        <div class="from-group">
+                            <label for="exampleInputName"><b>Student Name</b></label>
+                            <input type='text' class='form-control form-control-sm' id='Name'>
+                        </div>
+                        <div class="from-group">
+                            <label for="exampleInputID"><b>Studen ID</b></label>
+                            <input type='number' class='form-control form-control-sm' id='ID'>
+                        </div>
+                        <div class="from-group">
+                            <label for="exampleInputGDPA"><b>Student GDPA</b></label>
+                            <input type='number' class='form-control form-control-sm' id='GDPA'>
+                        </div>
+                        <button type='submit' class='btn btn-primary btn-block' id='submit' onclick='return showList();'>Add</button>
+                        <button type="button" class='btn btn-primary btn-block' id='dlt' onclick='removeItem();'>Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <script src="./main.js"></script>
+</body>
+</html>

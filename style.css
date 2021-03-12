@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    background-color: rgb(130, 178, 223) !important;
+}
+.global-container{
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+form{
+    padding-top: 10px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.login-form{
+    width: 330px;
+    height: 370px;
+    margin-bottom: 10%;
+    background: black;
+    border-radius: 10px !important;
+}
+input[type='text'], input[type='ID'], input[type='number']{
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(130, 178, 223);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.card-title{
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Reggae One', cursive;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.btn[type='submit']{
+    width: 40%;
+    background: rgb(41, 119, 209);
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn[type='button']{
+    width: 40%;
+    background: rgb(41, 119, 209);
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 60%;
+    margin-top: -22%;
+}
